@@ -1,0 +1,53 @@
+.container{
+    width: 100%;
+    @media @mobile {
+        width:100%;
+        
+        }
+    .img_container{
+
+        .round_text{
+            position: absolute;
+            .text_position(50%,50%);
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            background-color:gold;
+            padding: 40px;
+            @media @mobile{
+               text-align: center;
+               background-color: gold;
+               .text_position(90%,50%);
+               .padding(20px);
+              
+
+            }
+        }
+        img{
+            padding-top: 20px;
+            opacity: 25%;
+            @media @mobile {
+                padding-top: 10px;
+                padding-bottom: 10px;
+
+                }   
+            }
+    }
+    .top_container{
+        .flex-row();
+        padding-top: 20px;
+        
+        @media @mobile{
+            .flex-column();
+        }
+        .text_container{
+            padding-left: 10px;
+            color:@color;
+            @media @mobile{
+                padding-top: 10px;
+            }
+        }
+       
+    }
+
+
+}
