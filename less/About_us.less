@@ -1,0 +1,103 @@
+@import "variables";
+@import "mixins";
+@import "reset";
+@import "global";
+@import "footer";
+
+
+.container{
+    width: 800px;
+   margin-left: 20%;
+   margin-right: 30%;
+    
+}
+.top_container{
+    padding-top: 40px;
+    .flex-row();
+    padding-bottom: 20px;
+    @media @mobile{
+        .flex-column();
+    }
+  
+    .top_container1{
+        
+       
+        .container_setting();
+        
+
+        
+     .icon{
+        .icon_setting();
+               
+        }
+    img{
+        .img_setting();
+    }
+    .name{
+        font-family: 'Chelsea Market', cursive;
+        color:black;
+    }
+    p{
+        color: red;
+        text-align: center;
+        text-transform: uppercase;
+    }
+          
+    }
+   
+}
+
+.middle_container {
+    .flex-row();
+    padding-bottom: 20px;
+    @media @mobile{
+        .flex-column();
+    }
+    .middle_container1{
+        
+        .container_setting();
+        
+        
+    img{
+        .img_setting();
+    }
+    .icon{
+        .icon_setting();
+        
+    }
+    .name{
+        font-family: 'Chelsea Market', cursive;
+        color:black;
+    }
+    p{
+        color: red;
+        text-align: center;
+        text-transform: uppercase;
+    }
+   
+       
+    }
+}
+button{
+    text-align: center;
+    margin-left: 45%;
+    padding:20px;
+    border-radius: 12px;
+    
+}
+.btn{
+    padding-bottom: 20px;
+}
+header{
+    .top{
+        padding-bottom: 20px;
+    }
+h1{
+    text-align: center;
+    color:black;
+    padding:20px;
+
+    background-color: @theme-color;
+}
+
+}
