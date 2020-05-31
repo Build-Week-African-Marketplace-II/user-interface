@@ -192,7 +192,7 @@ header .header_container {
 }
 header .header_container h1 {
   padding-top: 30px;
-  font-size: 3rem;
+  font-size: 1.7rem;
 }
 @media (max-width: 500px) {
   header .header_container h1 {
@@ -377,6 +377,11 @@ header .top h1 {
     width: 100%;
   }
 }
+@media (min-width:1000px) {
+  .container {
+    width: 100%;
+  }
+}
 .container .img_container .round_text {
   position: absolute;
   top: 50%;
@@ -395,6 +400,12 @@ header .top h1 {
 @media (min-width:800px) {
   .container .img_container .round_text {
     top: 45%;
+    left: 50%;
+  }
+}
+@media (min-width:1000px) {
+  .container .img_container .round_text {
+    top: 60%;
     left: 50%;
   }
 }
