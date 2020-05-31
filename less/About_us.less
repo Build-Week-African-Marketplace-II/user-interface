@@ -5,12 +5,22 @@
 @import "footer";
 
 
-.container{
+.container_about{
     width: 800px;
    margin-left: 20%;
    margin-right: 30%;
-    
+   @media @mobile{
+    width: 500px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
+    @media @tablet{
+    width: 800px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+}
+
 .top_container{
     padding-top: 40px;
     .flex-row();
@@ -28,6 +38,9 @@
         
      .icon{
         .icon_setting();
+        @media @mobile{
+            margin-left: 20px;
+        }
                
         }
     img{
@@ -41,6 +54,9 @@
         color: red;
         text-align: center;
         text-transform: uppercase;
+        @media @mobile{
+            margin-right: 10px;
+        }
     }
           
     }
@@ -63,6 +79,11 @@
     }
     .icon{
         .icon_setting();
+        @media @mobile{
+            margin-left: 20px;
+        }
+
+       
         
     }
     .name{
@@ -73,6 +94,9 @@
         color: red;
         text-align: center;
         text-transform: uppercase;
+        @media @mobile{
+            margin-right: 10px;
+        }
     }
    
        
@@ -89,15 +113,17 @@ button{
     padding-bottom: 20px;
 }
 header{
+
     .top{
+        h1{
+            text-align: center;
+            color:black;
+            padding:20px;
+        
+            background-color: @theme-color;
+        }
         padding-bottom: 20px;
     }
-h1{
-    text-align: center;
-    color:black;
-    padding:20px;
 
-    background-color: @theme-color;
-}
 
 }

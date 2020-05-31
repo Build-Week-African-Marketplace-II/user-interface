@@ -192,7 +192,18 @@ header .header_container {
 }
 header .header_container h1 {
   padding-top: 30px;
-  font-size: x-large;
+  font-size: 3rem;
+}
+@media (max-width: 500px) {
+  header .header_container h1 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}
+@media (min-width:800px) {
+  header .header_container h1 {
+    font-size: 1.5rem;
+  }
 }
 header .header_container .img_logo {
   width: 120px;
@@ -225,10 +236,24 @@ header a {
   text-decoration: none;
   align-content: center;
 }
-.container {
+.container_about {
   width: 800px;
   margin-left: 20%;
   margin-right: 30%;
+}
+@media (max-width: 500px) {
+  .container_about {
+    width: 500px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+@media (min-width:800px) {
+  .container_about {
+    width: 800px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
 }
 .top_container {
   padding-top: 40px;
@@ -251,6 +276,11 @@ header a {
   width: 70px;
   height: 70px;
 }
+@media (max-width: 500px) {
+  .top_container .top_container1 .icon {
+    margin-left: 20px;
+  }
+}
 .top_container .top_container1 img {
   padding: 10px;
   border-radius: 50%;
@@ -265,6 +295,11 @@ header a {
   color: red;
   text-align: center;
   text-transform: uppercase;
+}
+@media (max-width: 500px) {
+  .top_container .top_container1 p {
+    margin-right: 10px;
+  }
 }
 .middle_container {
   display: flex;
@@ -292,6 +327,11 @@ header a {
   width: 70px;
   height: 70px;
 }
+@media (max-width: 500px) {
+  .middle_container .middle_container1 .icon {
+    margin-left: 20px;
+  }
+}
 .middle_container .middle_container1 .name {
   font-family: 'Chelsea Market', cursive;
   color: black;
@@ -300,6 +340,11 @@ header a {
   color: red;
   text-align: center;
   text-transform: uppercase;
+}
+@media (max-width: 500px) {
+  .middle_container .middle_container1 p {
+    margin-right: 10px;
+  }
 }
 button {
   text-align: center;
@@ -313,7 +358,7 @@ button {
 header .top {
   padding-bottom: 20px;
 }
-header h1 {
+header .top h1 {
   text-align: center;
   color: black;
   padding: 20px;
@@ -327,6 +372,11 @@ header h1 {
     width: 100%;
   }
 }
+@media (min-width:800px) {
+  .container {
+    width: 100%;
+  }
+}
 .container .img_container .round_text {
   position: absolute;
   top: 50%;
@@ -334,13 +384,32 @@ header h1 {
   transform: translate(-50%, -50%);
   border-radius: 50%;
   background-color: gold;
-  padding: 2%;
+  padding: 15px;
 }
 @media (max-width: 500px) {
   .container .img_container .round_text {
-    font-size: small;
-    top: 70%;
+    top: 75%;
     left: 50%;
+  }
+}
+@media (min-width:800px) {
+  .container .img_container .round_text {
+    top: 45%;
+    left: 50%;
+  }
+}
+.container .img_container .round_text h4 {
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .container .img_container .round_text h4 {
+    font-size: 0.75rem;
+    font-weight: 1000;
+  }
+}
+@media (min-width:800px) {
+  .container .img_container .round_text h4 {
+    font-size: 1.5rem;
   }
 }
 .container .img_container .center_text {
