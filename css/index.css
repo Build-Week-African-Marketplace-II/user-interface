@@ -196,7 +196,7 @@ header .header_container h1 {
 }
 @media (max-width: 500px) {
   header .header_container h1 {
-    font-size: 1.3rem;
+    font-size: 1.9rem;
     margin-left: 12%;
   }
 }
@@ -232,10 +232,14 @@ header nav {
   }
 }
 header a {
-  margin-right: 10%;
   padding: 20px;
   text-decoration: none;
   align-content: center;
+}
+@media (max-width: 500px) {
+  header a {
+    margin-right: 15%;
+  }
 }
 .container_about {
   width: 800px;
@@ -415,7 +419,7 @@ header .top h1 {
 }
 @media (max-width: 500px) {
   .container .img_container .round_text h4 {
-    font-size: 0.75rem;
+    font-size: 1rem;
     font-weight: 1000;
   }
 }
