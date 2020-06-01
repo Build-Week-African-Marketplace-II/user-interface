@@ -197,7 +197,7 @@ header .header_container h1 {
 @media (max-width: 500px) {
   header .header_container h1 {
     font-size: 1.3rem;
-    text-align: center;
+    margin-left: 12%;
   }
 }
 @media (min-width:800px) {
@@ -232,6 +232,7 @@ header nav {
   }
 }
 header a {
+  margin-right: 10%;
   padding: 20px;
   text-decoration: none;
   align-content: center;
