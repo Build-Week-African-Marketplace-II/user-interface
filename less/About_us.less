@@ -2,7 +2,6 @@
 @import "mixins";
 @import "reset";
 @import "global";
-@import "footer";
 
 
 .container_about{
@@ -23,17 +22,19 @@
 
 .top_container{
     padding-top: 40px;
-    .flex-row();
-    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
     @media @mobile{
-        .flex-column();
+        display: flex;
+        flex-direction: column;
     }
   
     .top_container1{
         
-       
-        .container_setting();
-        
+        border:1px solid black;
+        width: 250px;
+        margin-left: 30px;
+        margin-top: 30px;
 
         
      .icon{
@@ -43,12 +44,12 @@
         }
                
         }
+        
     img{
-        .img_setting();
-    }
-    .name{
-        font-family: 'Chelsea Market', cursive;
-        color:black;
+        padding: 10px;
+        border-radius: 50%;
+        width:200px;
+        height:200px;
     }
     p{
         color: red;
@@ -64,14 +65,13 @@
 }
 
 .middle_container {
-    .flex-row();
-    padding-bottom: 20px;
-    @media @mobile{
-        .flex-column();
-    }
+    display: flex;
+    flex-direction: row;
     .middle_container1{
-        
-        .container_setting();
+        border:1px solid black;
+        width: 250px;
+        margin-left: 30px;
+        margin-top: 30px;
         
         
     img{
@@ -97,20 +97,17 @@
         @media @mobile{
             margin-right: 10px;
         }
+        padding: 10px;
+        border-radius: 50%;
+        width:200px;
+        height:200px;
+    }
+    p{
+        color: red;
     }
    
        
     }
-}
-button{
-    text-align: center;
-    margin-left: 45%;
-    padding:20px;
-    border-radius: 12px;
-    
-}
-.btn{
-    padding-bottom: 20px;
 }
 header{
 
@@ -126,4 +123,9 @@ header{
     }
 
 
+h1{
+    text-align: center;
+    color:red;
+    background-color: @theme-color;
+}
 }

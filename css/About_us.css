@@ -168,6 +168,7 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+<<<<<<< HEAD
 .footer {
   width: 100%;
   text-align: center;
@@ -180,6 +181,9 @@ img {
   }
 }
 .container_about {
+=======
+.container {
+>>>>>>> parent of 4141000... Desktop and mobile version of About_us completed
   width: 800px;
   margin-left: 20%;
   margin-right: 30%;
@@ -202,7 +206,6 @@ img {
   padding-top: 40px;
   display: flex;
   flex-direction: row;
-  padding-bottom: 20px;
 }
 @media (max-width: 500px) {
   .top_container {
@@ -211,13 +214,10 @@ img {
   }
 }
 .top_container .top_container1 {
+  border: 1px solid black;
   width: 250px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-.top_container .top_container1 .icon {
-  width: 70px;
-  height: 70px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 @media (max-width: 500px) {
   .top_container .top_container1 .icon {
@@ -230,14 +230,9 @@ img {
   width: 200px;
   height: 200px;
 }
-.top_container .top_container1 .name {
-  font-family: 'Chelsea Market', cursive;
-  color: black;
-}
 .top_container .top_container1 p {
   color: red;
   text-align: center;
-  text-transform: uppercase;
 }
 @media (max-width: 500px) {
   .top_container .top_container1 p {
@@ -247,18 +242,12 @@ img {
 .middle_container {
   display: flex;
   flex-direction: row;
-  padding-bottom: 20px;
-}
-@media (max-width: 500px) {
-  .middle_container {
-    display: flex;
-    flex-direction: column;
-  }
 }
 .middle_container .middle_container1 {
+  border: 1px solid black;
   width: 250px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 .middle_container .middle_container1 img {
   padding: 10px;
@@ -266,6 +255,7 @@ img {
   width: 200px;
   height: 200px;
 }
+<<<<<<< HEAD
 .middle_container .middle_container1 .icon {
   width: 70px;
   height: 70px;
@@ -300,10 +290,13 @@ button {
 }
 header .top {
   padding-bottom: 20px;
+=======
+.middle_container .middle_container1 p {
+  color: red;
+>>>>>>> parent of 4141000... Desktop and mobile version of About_us completed
 }
 header .top h1 {
   text-align: center;
-  color: black;
-  padding: 20px;
+  color: red;
   background-color: #FFCF43;
 }
