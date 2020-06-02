@@ -2,6 +2,7 @@
 @import "mixins";
 @import "reset";
 @import "global";
+@import "footer";
 
 
 .container_about{
@@ -9,44 +10,47 @@
    margin-left: 20%;
    margin-right: 30%;
    @media @mobile{
-    width: 500px;
     margin-left: 2%;
-    margin-right: 2%;
-}
-    @media @tablet{
-    width: 800px;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-right: 3%;
 }
 }
 
 .top_container{
     padding-top: 40px;
-    display: flex;
-    flex-direction: row;
+    .flex-row();
+    padding-bottom: 20px;
     @media @mobile{
-        display: flex;
-        flex-direction: column;
+        .flex-column();
     }
   
     .top_container1{
         
-        border:1px solid black;
-        width: 250px;
-        margin-left: 30px;
-        margin-top: 30px;
+       
+        .container_setting();
+        
 
         
-        
+     .icon{
+        .icon_setting();
+        @media @mobile{
+            margin-right: 10%;
+           
+        }
+               
+        }
     img{
-        padding: 10px;
-        border-radius: 50%;
-        width:200px;
-        height:200px;
+        .img_setting();
+    }
+    .name{
+        font-family: 'Chelsea Market', cursive;
+        color:black;
+        
     }
     p{
         color: red;
         text-align: center;
+        text-transform: uppercase;
+        margin-right: 15%;
     }
           
     }
@@ -54,32 +58,61 @@
 }
 
 .middle_container {
-    display: flex;
-    flex-direction: row;
+    .flex-row();
+    padding-bottom: 20px;
+    @media @mobile{
+        .flex-column();
+    }
     .middle_container1{
-        border:1px solid black;
-        width: 250px;
-        margin-left: 30px;
-        margin-top: 30px;
+        
+        .container_setting();
         
         
     img{
-        padding: 10px;
-        border-radius: 50%;
-        width:200px;
-        height:200px;
+        .img_setting();
+    }
+    .icon{
+        .icon_setting();
+        @media @mobile{
+            margin-right: 10%;
+           
+        }
+        
+    }
+    .name{
+        font-family: 'Chelsea Market', cursive;
+        color:black;
     }
     p{
         color: red;
+        text-align: center;
+        text-transform: uppercase;
+        margin-right: 15%;
     }
    
        
     }
 }
+button{
+    text-align: center;
+    margin-left: 45%;
+    padding:20px;
+    border-radius: 12px;
+    
+}
+.btn{
+    padding-bottom: 20px;
+}
 header{
+    .top{
+        padding-bottom: 20px;
+    }
 h1{
     text-align: center;
-    color:red;
+    color:black;
+    padding:20px;
+
     background-color: @theme-color;
 }
+
 }
