@@ -5,18 +5,24 @@
 @import "footer";
 
 
-.container{
+.container_about{
     width: 800px;
    margin-left: 20%;
    margin-right: 30%;
-    
+   @media @mobile{
+    margin-left: 2%;
+    margin-right: 3%;
 }
+}
+
 .top_container{
     padding-top: 40px;
+    
     .flex-row();
     padding-bottom: 20px;
     @media @mobile{
         .flex-column();
+        margin-left: 12%;
     }
   
     .top_container1{
@@ -28,6 +34,10 @@
         
      .icon{
         .icon_setting();
+        @media @mobile{
+            margin-right: 10%;
+           
+        }
                
         }
     img{
@@ -36,11 +46,13 @@
     .name{
         font-family: 'Chelsea Market', cursive;
         color:black;
+        
     }
     p{
         color: red;
         text-align: center;
         text-transform: uppercase;
+        margin-right: 15%;
     }
           
     }
@@ -49,9 +61,11 @@
 
 .middle_container {
     .flex-row();
+    
     padding-bottom: 20px;
     @media @mobile{
         .flex-column();
+        margin-left: 12%;
     }
     .middle_container1{
         
@@ -63,6 +77,10 @@
     }
     .icon{
         .icon_setting();
+        @media @mobile{
+            margin-right: 10%;
+           
+        }
         
     }
     .name{
@@ -73,6 +91,7 @@
         color: red;
         text-align: center;
         text-transform: uppercase;
+        margin-right: 15%;
     }
    
        

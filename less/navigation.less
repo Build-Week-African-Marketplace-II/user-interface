@@ -2,7 +2,6 @@ header{
     .flex-row();
    background-color:@theme-color;
     width:100%;
-    color: @heading-color;
     @media @mobile{
         background-color: white;
     }
@@ -14,27 +13,31 @@ header{
         }
         h1{
 
-            
+            padding: 10px;
             padding-top: 30px;
-            font-size: x-large;
-            @media(max-width: width 500px){
+            font-size: 1.7rem;
+            @media @mobile{
+                font-size: 1.9rem;
+              margin-left: 12%;
+            }
+            @media @tablet{
+                font-size: 1.5rem;
+                
+                
                 
             }
         }
         .img_logo{
-            width:120px;
-            padding-right: 20px;
+            width:100px;
             
-        }
-
-    }
     
-    @media @mobile {
-        .flex-column();
-       
-
-        
     }
+}
+@media @mobile {
+    .flex-column();
+
+}
+  
     
     nav{
         .flex-row();
@@ -50,10 +53,12 @@ header{
         }
     }
     a{
-
         padding: 20px;
         text-decoration: none;
         align-content: center;
+        @media @mobile{
+            margin-right: 15%;
+        }
        
         
         

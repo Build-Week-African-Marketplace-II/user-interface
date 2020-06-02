@@ -2,7 +2,14 @@
     width: 100%;
     @media @mobile {
         width:100%;
-        
+                
+        }
+        @media @tablet {
+            width:100%;
+           
+        }
+        @media @desktop{
+            width: 100%;
         }
     .img_container{
 
@@ -12,15 +19,29 @@
             transform: translate(-50%, -50%);
             border-radius: 50%;
             background-color:gold;
-           padding: 2%;
-            
+            padding: 15px;
             @media @mobile{
-                font-size: small;
-                .text_position(70%,50%);
-           
+                .text_position(75%,50%);
+            }
+            @media @tablet{
+                .text_position(45%,50%);  
+            }
+            @media @desktop{
+                .text_position(60%,50%); 
+            }
+          h4{  
+              font-size: 2rem;
+            @media @mobile{
+                font-size: 1rem;
+                font-weight: 1000;
+               
+            }
+            @media @tablet{
+                font-size: 1.5rem;
+                             
             }
 
-        
+          }
            
         }
         .center_text{
