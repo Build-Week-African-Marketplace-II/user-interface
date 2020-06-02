@@ -206,7 +206,7 @@ header .header_container h1 {
   }
 }
 header .header_container .img_logo {
-  width: 150px;
+  width: 100px;
 }
 @media (max-width: 500px) {
   header {
@@ -261,6 +261,7 @@ header a {
   .top_container {
     display: flex;
     flex-direction: column;
+    margin-left: 12%;
   }
 }
 .top_container .top_container1 {
@@ -302,6 +303,7 @@ header a {
   .middle_container {
     display: flex;
     flex-direction: column;
+    margin-left: 12%;
   }
 }
 .middle_container .middle_container1 {
