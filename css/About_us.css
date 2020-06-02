@@ -169,6 +169,7 @@ img {
   margin: 0 auto;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .footer {
   width: 100%;
   text-align: center;
@@ -182,6 +183,8 @@ img {
 }
 .container_about {
 =======
+=======
+>>>>>>> parent of 4141000... Desktop and mobile version of About_us completed
 .container {
 >>>>>>> parent of 4141000... Desktop and mobile version of About_us completed
   width: 800px;
@@ -218,11 +221,14 @@ img {
   width: 250px;
   margin-left: 30px;
   margin-top: 30px;
+<<<<<<< HEAD
 }
 @media (max-width: 500px) {
   .top_container .top_container1 .icon {
     margin-left: 20px;
   }
+=======
+>>>>>>> parent of 4141000... Desktop and mobile version of About_us completed
 }
 .top_container .top_container1 img {
   padding: 10px;
@@ -233,11 +239,14 @@ img {
 .top_container .top_container1 p {
   color: red;
   text-align: center;
+<<<<<<< HEAD
 }
 @media (max-width: 500px) {
   .top_container .top_container1 p {
     margin-right: 10px;
   }
+=======
+>>>>>>> parent of 4141000... Desktop and mobile version of About_us completed
 }
 .middle_container {
   display: flex;
@@ -255,6 +264,7 @@ img {
   width: 200px;
   height: 200px;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 .middle_container .middle_container1 .icon {
   width: 70px;
@@ -290,6 +300,10 @@ button {
 }
 header .top {
   padding-bottom: 20px;
+=======
+.middle_container .middle_container1 p {
+  color: red;
+>>>>>>> parent of 4141000... Desktop and mobile version of About_us completed
 =======
 .middle_container .middle_container1 p {
   color: red;

@@ -235,7 +235,6 @@ header a {
   text-decoration: none;
   align-content: center;
 }
-<<<<<<< HEAD
 @media (max-width: 500px) {
   header a {
     margin-right: 15%;
@@ -264,7 +263,6 @@ header a {
   padding-top: 40px;
   display: flex;
   flex-direction: row;
-  padding-bottom: 20px;
 }
 @media (max-width: 500px) {
   .top_container {
@@ -273,18 +271,10 @@ header a {
   }
 }
 .top_container .top_container1 {
+  border: 1px solid black;
   width: 250px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-.top_container .top_container1 .icon {
-  width: 70px;
-  height: 70px;
-}
-@media (max-width: 500px) {
-  .top_container .top_container1 .icon {
-    margin-left: 20px;
-  }
+  margin-left: 30px;
+  margin-top: 30px;
 }
 .top_container .top_container1 img {
   padding: 10px;
@@ -292,42 +282,19 @@ header a {
   width: 200px;
   height: 200px;
 }
-.top_container .top_container1 .name {
-  font-family: 'Chelsea Market', cursive;
-  color: black;
-}
 .top_container .top_container1 p {
   color: red;
   text-align: center;
-  text-transform: uppercase;
-}
-@media (max-width: 500px) {
-  .top_container .top_container1 p {
-    margin-right: 10px;
-  }
 }
 .middle_container {
   display: flex;
   flex-direction: row;
-  padding-bottom: 20px;
-=======
-.footer {
-  width: 100%;
-  text-align: center;
-  padding: 30px;
-  background-color: #FFCF43;
->>>>>>> parent of 4141000... Desktop and mobile version of About_us completed
 }
-@media (max-width: 500px) {
-  .footer {
-    width: 100%;
-  }
-}
-<<<<<<< HEAD
 .middle_container .middle_container1 {
+  border: 1px solid black;
   width: 250px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 .middle_container .middle_container1 img {
   padding: 10px;
@@ -335,49 +302,14 @@ header a {
   width: 200px;
   height: 200px;
 }
-.middle_container .middle_container1 .icon {
-  width: 70px;
-  height: 70px;
-}
-@media (max-width: 500px) {
-  .middle_container .middle_container1 .icon {
-    margin-left: 20px;
-  }
-}
-.middle_container .middle_container1 .name {
-  font-family: 'Chelsea Market', cursive;
-  color: black;
-}
 .middle_container .middle_container1 p {
   color: red;
+}
+header h1 {
   text-align: center;
-  text-transform: uppercase;
-}
-@media (max-width: 500px) {
-  .middle_container .middle_container1 p {
-    margin-right: 10px;
-  }
-}
-button {
-  text-align: center;
-  margin-left: 45%;
-  padding: 20px;
-  border-radius: 12px;
-}
-.btn {
-  padding-bottom: 20px;
-}
-header .top {
-  padding-bottom: 20px;
-}
-header .top h1 {
-  text-align: center;
-  color: black;
-  padding: 20px;
+  color: red;
   background-color: #FFCF43;
 }
-=======
->>>>>>> parent of 4141000... Desktop and mobile version of About_us completed
 .container {
   width: 100%;
 }
@@ -468,5 +400,16 @@ header .top h1 {
 @media (max-width: 500px) {
   .container .top_container .text_container {
     padding-top: 10px;
+  }
+}
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+  background-color: #FFCF43;
+}
+@media (max-width: 500px) {
+  .footer {
+    width: 100%;
   }
 }
